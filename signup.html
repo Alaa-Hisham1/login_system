@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <meta charSet="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login System</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="system signUp">
+        <h1>Smart Login System</h1>
+        <input type="text" placeholder="Enter your name" class=" p-2 style d-block" id="firstName">
+        <small class=" text-danger mb-1 d-none s1" >user name must be in the rang of 3 or 8 charcters and musn't include special charcters</small>
+        <input type="email" placeholder="Enter your email" class=" p-2  style" id="email">
+        <small class=" text-danger mb-1 d-none s2" > please enter your correct gmail or yahoo account</small>
+        <input type="password" placeholder="Enter your passward" class=" p-2  style" id="pass">
+        <small class=" text-danger mb-1 d-none s3" >passward must be at least 8 characters and must include special characters to make a strong passward</small>
+        <p class="d-none text-danger">All inputs is required</p>
+        <button class="form-control p-2 style">sign Up</button>
+        <h5>You have an account?<a href="index.html"> Signin</a></h5>
+    </div>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="signUp.js"></script>
+</body>
+</html>
